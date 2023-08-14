@@ -112,3 +112,15 @@
   Ketika conflict, kita tidak bisa melakukan commit
   Untuk melakukan commit, conflict harus diselesaikan dulu
 
+## GUI
+
+### Deskripsi
+  Software berbasis GUI untuk memudahkan dalam mengoperasikan git
+
+### Manfaat
+  Mudah digunakan
+  Solving conflict jadi lebih mudah
+  Mempercepat kinerja
+
+### Kapan dibutuhkan
+  Setiap saat
