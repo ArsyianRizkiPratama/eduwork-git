@@ -1,12 +1,12 @@
 # eduwork-git
 
-## Fundamental Git
+## Pendahuluan Git
 
-Deskripsi
+### Deskripsi
   GIT adalah salah satu version control system yang diciptakan oleh Linus Torvalds
   GIT mencatat setiap perubahan file di code atau sourcode kita
   
-Manfaat
+### Manfaat
   Bisa menyimpan seluruh versi source code
   Berkolaborasi membangun sistem jadi mudah
   Bisa berkontribusi di proyek open source
@@ -14,8 +14,73 @@ Manfaat
   Memahami cara deploy modern
   Dsb
 
-Kapan dibutuhkan
+### Kapan dibutuhkan
   Saat ingin membangun sistem dengan berkolaborasi
   Membuat versi dari sistem
   Backup sour code
   Berkolaborasi dengan programmer dunia
+
+## Fundamental Git
+
+### Deskripsi
+  Perintah perintah dasar yang sering dilakukan untuk mengoperasikan GIT
+
+### Manfaat
+  Terbiasa mengerjakan proyek dengan terdokumentasi
+  Fleksibel dalam mengeksplorasi fitur
+  Mempercepat dalam mengerjakan proyek terlebih jika proyek kolaborasi
+
+### Todo
+  Git init
+  Git config
+  Git status
+  Git add
+  Git commit
+  Git clone
+  Git remote
+  Git push
+  Git pull
+
+###Kapan dibutuhkan
+  Saat mengerjakan proyek
+
+### Git init
+  Digunakan untuk menginisialisasi repository
+  Atau memberi tahu folder saat ini akan dijadikan repository
+  Kita tidak bisa menggunakan git tanpa menginisialisasinya
+
+### Git config
+  Konfigurasi email dan username
+  Biasanya disamakan dengan akun gitlab / github
+  Config global untuk konfigurasi ke server
+  Config local untuk konfigurasi local
+  Untuk melihat semua konfigurasi yang ada di git bisa menggunakan perintah  git config --list 
+
+### Git status
+  Digunakan untuk mengetahui status file
+  Status file secara umum ada 3. Untracked, staging area, modified
+  
+### Git add .
+  Untuk memasukan file ke staging area
+
+### Git commit
+  Untuk mencatat perubahan yang dilakukan
+
+### Git log
+  Untuk melihat riwayat commit
+  Tekan q untuk keluar dari log
+
+### Git clone
+  Digunakan untuk mengcopy repo dari server
+
+### Git push
+  Untuk mengirimkan commit ke server
+
+### Git remote
+  Semacam api untuk berinteraksi dari client dengan server
+
+### Git pull
+  Untuk mengambil commit dari server jika ada perubahan di server yang dibuat oleh branch lain
+
+
+
